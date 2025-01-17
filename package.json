@@ -1,0 +1,40 @@
+{
+  "name": "next-interview-quiz",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@langchain/community": "^0.3.2",
+    "@langchain/core": "^0.3.3",
+    "@langchain/openai": "^0.3.2",
+    "@prisma/client": "^5.20.0",
+    "@types/uuid": "^10.0.0",
+    "clsx": "^2.1.1",
+    "dotnet": "^1.1.4",
+    "lamejs": "^1.2.1",
+    "langchain": "^0.3.2",
+    "mic-recorder-to-mp3": "^2.2.2",
+    "next": "14.2.13",
+    "openai": "^4.64.0",
+    "pg": "^8.13.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.13",
+    "postcss": "^8",
+    "prettier": "^2.8.7",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
