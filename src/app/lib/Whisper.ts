@@ -4,8 +4,8 @@ import { AzureOpenAI } from 'openai'
 
 // You will need to set these environment variables or edit the following values
 const endpoint = process.env['AZURE_OPENAI_ENDPOINT'] || '<endpoint>'
-const apiKey = process.env['AZURE_OPENAI_API_KEY'] || '<api key>'
-
+// const apiKey = process.env['AZURE_OPENAI_API_KEY'] || '<api key>'
+const apiKey = 'f3c0ff9f001747b8869e66897d32fd73'
 // Required Azure OpenAI deployment name and API version
 const apiVersion = '2024-08-01-preview'
 const deploymentName = 'whisper'
